@@ -20,12 +20,19 @@ A web-based application built using Flask that predicts house prices in Bengalur
 ## 📂 Project Structure
 
 project/
+
 │
+
 ├── app.py # Flask backend with routing and prediction logic
+
 ├── model/ # Folder containing the trained ML model (e.g., model.pkl)
+
 ├── templates/
+
 │ └── index.html # Main HTML file with Bootstrap and dynamic Jinja2 rendering
+
 ├── static/ # Static files (CSS/JS) if used separately
+
 └── requirements.txt # List of Python dependencies
 
 🔍 Prediction Logic
